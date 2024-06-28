@@ -38,3 +38,8 @@ dataSet.json - Contains static files and the dataset (dataSet.json)
 loadData.ts - Script to load and preprocess the data
 analytics/ - Contains the analytics functions
 index.ts - Analytics functions for processing the data
+
+# Screenshot of both Tables
+![Screenshot 2024-06-28 135554](https://github.com/RatneshMaurya1/Data-Analysis-Task/assets/150115391/3faa1a67-942c-49f2-abea-95b231cfe363)
+
+![Screenshot 2024-06-28 135607](https://github.com/RatneshMaurya1/Data-Analysis-Task/assets/150115391/3e96dcf8-e87e-4e0c-9b48-52edb7a45405)

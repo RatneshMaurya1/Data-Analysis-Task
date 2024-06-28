@@ -1,26 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { MantineProvider } from '@mantine/core';
+import { MaxMinProductionTable } from './components/MaxMinProductionData';
+import { AverageYieldAreaTable } from './components/AverageYieldAreaData';
 
-function App() {
+
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MantineProvider theme={{}}>
+      <div>
+        <h1>Agriculture Analytics</h1>
+        <MaxMinProductionTable />
+        <AverageYieldAreaTable />
+      </div>
+    </MantineProvider>
   );
-}
+};
 
 export default App;
